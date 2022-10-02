@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ch_04;
-
 /**
- *
- * @author LENOVO
+ * *4.11 (Decimal to hex) Write a program that prompts the user to enter an integer between
+ * 0 and 15 and displays its corresponding hex number. Here are some sample runs:
+ * Enter a decimal value (0 to 15): 11
+ * The hex value is B
+ * Enter a decimal value (0 to 15): 5
+ * The hex value is 5
+ * Enter a decimal value (0 to 15): 31
+ * 31 is an invalid input
  */
-public class Question_11 {
-    
-}
