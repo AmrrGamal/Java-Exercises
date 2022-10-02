@@ -38,6 +38,6 @@ public class miniProject {
 			System.out.println("The corresponding number is " + number);
 		}
 		else
-			System.out.println(ch + " is an invalid input");
+			System.out.println(ch  + " is an invalid input");
 	}
 }
