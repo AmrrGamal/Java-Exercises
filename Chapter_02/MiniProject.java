@@ -30,7 +30,7 @@ public static void main(String[] args) {
 
   mounthlyInterest=annualInterest/12;
   
-  futureInvestment=investmentAmount* Math.pow(1+ mounthlyInterest/100,numOfYear*12);
+  futureInvestment=investmentAmount* Math.pow(1+ mounthlyInterest/100.0,numOfYear*12);
   
     System.out.println("the future value is : "+futureInvestment);
 
