@@ -8,15 +8,12 @@ package chapterThree;
   public static void main(String[] args) {
     // Create a Scanner
    Scanner input = new Scanner(System.in);
-		System.out.print("(0-single filer, 1-married jointly or "
-				+ "qualifying widow(er), 2-married separately, 3-head of " + "household) Enter the filing status: ");
+		System.out.printIn("Enter the filing status: ");
 		int status = input.nextInt();
-		// Prompt the user to enter taxable income
 		System.out.print("Enter the taxable income: ");
 		double income = input.nextDouble();
 		
-		double tax = 0; //Initialize var for computed tax amount
-		//Initialize var's for upper bounds
+		double tax = 0; 
 		int upBound10 = 0, upBound15 = 0, upBound25 = 0, upBound28 = 0, upBound33 = 0;
 		
 		if (status == 0) { // Compute tax for single filers
